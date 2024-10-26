@@ -1,6 +1,79 @@
+
+{% block stylesheets %}
+    <link rel="stylesheet" href={{ asset("css/index.css") }} >
+{% endblock %}
+
 {% extends "base.html.twig" %}
 
+{% block title %}Câmara de Cônego Marinho{% endblock %}
+
 {% block body %}
-    <h1>HI</h1>
+
+    <div class="acess">
+        <div class="overlap-group">
+            <div class="rectangle-2"></div>
+            <div class="heading-2"><div class="text-wrapper-11">ACESSO RÁPIDO</div></div>
+            <div class="frame-5">
+                <div class="text-wrapper-23">texto</div>
+                <img class="vector-2" src="img/vector.svg" />
+            </div>
+            <div class="frame-6">
+                <img class="vector-3" src="img/image.svg" />
+                <div class="text-wrapper-24">texto</div>
+            </div>
+            <div class="frame-7">
+                <img class="vector-4" src="img/vector-2.svg" />
+                <div class="text-wrapper-25">texto</div>
+            </div>
+            <div class="frame-8">
+                <div class="text-wrapper-26">texto</div>
+                <img class="material-symbols" src="img/material-symbols-news.svg" />
+            </div>
+            <div class="frame-9">
+                <div class="text-wrapper-26">texto</div>
+                <img class="uis-schedule" src="img/uis-schedule.svg" />
+            </div>
+        </div>
+    </div>
+    <div class="more-notice"><div class="text-wrapper-27">Mais notícias</div></div>
+    <div class="element-wrapper"><img class="element" src="img/1-1.png" /></div>
+
+    <div class="recentes">
+        <div class="heading"><div class="text-wrapper-11">ÚLTIMAS NOTÍCIAS</div></div>
+        <div class="notcias">
+            <div class="notcia">
+                <img class="img" src="img/image.png" />
+                <p class="p">
+                    Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.
+                </p>
+                <div class="content-tag"><div class="intelig-ncia">VEÍCULOS</div></div>
+            </div>
+            <div class="notcia">
+                <img class="image-2" src="img/image-2.png" />
+                <p class="p">
+                    Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais
+                    realistas e envolventes.
+                </p>
+                <div class="content-tag"><div class="intelig-ncia">HOLOGRAMAS</div></div>
+            </div>
+            <div class="notcia">
+                <img class="image-2" src="img/image-3.png" />
+                <p class="p">
+                    Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de
+                    jogo totalmente envolventes.
+                </p>
+                <div class="content-tag"><div class="intelig-ncia">REALIDADE VIRTUAL</div></div>
+            </div>
+            <div class="notcia">
+                <img class="image-2" src="img/image-4.png" />
+                <p class="p">Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</p>
+                <div class="content-tag"><div class="intelig-ncia">INTERNET</div></div>
+            </div>
+        </div>
+    </div>
+    <img class="rectangle" src="img/rectangle-9.svg" />
+
+
+
 {% endblock %}
 
